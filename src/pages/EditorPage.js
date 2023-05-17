@@ -240,7 +240,7 @@ const EditorPage = () => {
                     Copy Room Id
                 </button>   
 
-                <button className="btn leaveBtn bg-[#1d9e62] hover:bg-[#198754]" onClick={runCode} disabled={!savePerm}>
+                <button className="btn leaveBtn bg-[#1d9e62] hover:bg-[#198754]" onClick={runCode}>
                     Run Code
                 </button>
 
