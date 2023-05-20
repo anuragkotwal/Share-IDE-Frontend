@@ -206,7 +206,7 @@ const EditorPage = () => {
                 <div className='h-8 flex rounded-sm '>
                     <div className='rounded-sm w-30 self-center flex'>
                     <span className='font-medium block mr-2'>Theme</span>
-                        <select disabled={!savePerm} name="theme" id="theme" onChange={handleTheme} className=' ml-6 block h-7 bg-[#30353E]/80 outline-none rounded-md text-slate-100 w-30'>
+                        <select name="theme" id="theme" onChange={handleTheme} className=' ml-6 block h-7 bg-[#30353E]/80 outline-none rounded-md text-slate-100 w-30'>
                             <option value="dracula" selected>Dracula</option>
                             <option value="3024-night">3024-night</option>
                             <option value="elegant">Elegant</option>
@@ -224,7 +224,7 @@ const EditorPage = () => {
                 <div className='h-8 flex rounded-sm'>
                     <div className='rounded-sm w-30 self-center flex'>
                     <span className='font-medium block mr-2'>Language</span>
-                        <select disabled={!savePerm} name="language" id="language" className='block h-7 bg-[#30353E]/80 outline-none rounded-md text-slate-100 w-[7rem]'>
+                        <select name="language" id="language" className='block h-7 bg-[#30353E]/80 outline-none rounded-md text-slate-100 w-[7rem]'>
                             <option value="cs">C#</option>
                             <option value="java">Java</option>
                             <option value="py">Python</option>
