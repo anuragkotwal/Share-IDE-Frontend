@@ -55,7 +55,6 @@ const Editor = ({ socketRef, roomId, username, onCodeChange }) => {
           theme: "dracula",
           autoCloseBrackets: true,
           lineNumbers: true,
-          readOnly: !writePermission,
         }
       );
 
